@@ -1,0 +1,313 @@
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+}
+
+header {
+    font-weight: bold;
+
+}
+
+.searchbox {
+    float: right;
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+}
+
+.headerlogo {
+    float: left;
+    margin-right: 10px;
+}
+
+.headerlogo > img {
+    height: 60px;
+    width: 60px;
+}
+
+.headername {
+    font-size: 50px;
+    font-family: "Brush Script MT";
+    text-shadow: 5px 5px 5px #5f2c17;
+    color: #603813;
+    padding: 15px;
+    margin: 8px 0px;
+    font-weight: bold;
+}
+
+nav {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+nav ul li {
+    display: block;
+}
+
+.backgroundgradient {
+    background: -webkit-linear-gradient(left, #603813, ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #603813, #341c05); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #603813, #341c05); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #603813, #341c05);
+}
+
+
+.navlink {
+    height: 35px;
+    margin-right: 10px;
+    font-size: 18px;
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.navlink.active {
+}
+
+#welcomeimage {
+    float:left;
+    width:700px;
+}
+
+.coffeeofthemonth {
+    float: right;
+    width: 290px;
+}
+
+.welcometext {
+    float: left;
+    width: 70%;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    -webkit-column-count: 2;
+    column-count: 2;
+}
+
+.welcometext > header {
+    color: #603813;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.events {
+    float:right;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 5 px;
+}
+
+.events > header {
+    margin-left: 35px;
+    color: #603813;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.events > ul {
+    color:#341c05
+
+}
+
+#events > ul > li {
+    margin-bottom: 5px;
+}
+
+.bestsellers {
+    float: left;
+    margin-bottom: 5px;
+}
+
+.bestsellers > header {
+    color: #603813;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom:5px;
+
+}
+
+.coffeebestsellers {
+    float: left;
+}
+
+.coffeebestsellers > header {
+    background-color: #603813;
+    color: white;
+    padding: 15px;
+    margin-bottom:5px;
+}
+
+#flex-container{
+    display:flex;
+    justify-content: space-evenly;
+    width:1000px;
+    height:400px;
+    background-color: #ba8451;
+}
+
+.productarticlethumbnail {
+    width: 100px;
+    height: 150px;
+}
+
+.productarticle {
+    margin:auto;
+}
+
+.productarticlename {
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.productarticleprice {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.addtocartbutton {
+    margin:auto;
+    cursor: pointer;
+    padding: 4px 25px;
+    background: #603813;
+    border: 1px solid #381f09;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    box-shadow: 0 0 4px rgba(0,0,0, .75);
+    color: #f3f3f3;
+    font-size: 0.8em;
+    width: 80px;
+}
+
+
+
+
+footer {
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    clear: both;
+    background-color: #512c0a;
+    margin: 10px 0px 10px;
+    padding: 5px;
+}
+
+
+.smalltext {
+    font-size: 10px;
+}
+
+.mainlink {
+    color:white;
+}
+
+
+
+
+/*Coffee detail page*/
+
+.coffeedetails {
+    float: left;
+    width: 1000px;
+}
+
+.productarticlelargeimage {
+    width: 200px;
+    height: 300px;
+
+}
+
+.productarticlelargefigure {
+
+    float: left;
+    margin: 10px;
+}
+
+.productarticlecontent {
+    width:75%;
+    float: right;
+}
+
+.productarticledescription {
+    text-wrap: normal;
+}
+
+.productarticleprice {
+    font-size: 25px;
+    color:white;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+/*Checkout page*/
+.textlabel
+{
+    text-align: left;
+    font-size: 14px;
+    margin: 0px;
+    display: block;
+    width: 250px;
+    padding: 2px 5px;
+    float: left;
+}
+
+.blockheader{
+    font-size: 20px;
+    padding: 5px;
+    text-decoration-line: underline;
+}
+
+.textinput
+{
+    width: 300px;
+    height: 22px;
+    border: 1px solid #888888;
+}
+
+fieldset
+{
+    padding: 0px;
+    border: none;
+}
+
+fieldset > div
+{
+    border: 2px solid #888888;
+}
+
+.submitbutton {
+    padding: 5px;
+    margin: 10px 10px;
+    width: 100px;
+    font-size: smaller;
+    background-color: #888888;
+
+
+}
